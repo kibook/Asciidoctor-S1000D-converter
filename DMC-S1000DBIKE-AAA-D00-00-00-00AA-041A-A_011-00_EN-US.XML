@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<content>
+  <description>
+    <levelledPara id="_physical_description_of_a_bicycle">
+      <title>Physical description of a bicycle</title>
+      <para>A bicycle is a frame and a number of movable components with mechanical parts that are completely open. There are no covers or sheet metal panels that prevent access to the mechanical parts. Thus, you can disassemble the different components of a bicycle to do:</para>
+      <para>
+        <randomList>
+          <listItem>
+            <para>an inspection</para>
+          </listItem>
+          <listItem>
+            <para>a maintenance task</para>
+          </listItem>
+          <listItem>
+            <para>a repair task</para>
+          </listItem>
+        </randomList>
+      </para>
+    </levelledPara>
+  </description>
+</content>
