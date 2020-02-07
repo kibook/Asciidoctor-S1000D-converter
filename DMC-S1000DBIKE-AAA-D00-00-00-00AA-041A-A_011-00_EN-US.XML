@@ -1,9 +1,13 @@
 <?xml version="1.0"?>
+<!DOCTYPE content [
+<!NOTATION CGM SYSTEM "CGM" >
+<!ENTITY ICN-C0419-S1000D0360-001-01 SYSTEM "ICN-C0419-S1000D0360-001-01.CGM" NDATA CGM>
+]>
 <content>
   <description>
     <levelledPara id="_physical_description_of_a_bicycle">
       <title>Physical description of a bicycle</title>
-      <para>A bicycle is a frame and a number of movable components with mechanical parts that are completely open. There are no covers or sheet metal panels that prevent access to the mechanical parts. Thus, you can disassemble the different components of a bicycle to do:</para>
+      <para>A bicycle (refer to <internalRef internalRefId="fig-0001"/>) is a frame and a number of movable components with mechanical parts that are completely open. There are no covers or sheet metal panels that prevent access to the mechanical parts. Thus, you can disassemble the different components of a bicycle to do:</para>
       <para>
         <randomList>
           <listItem>
@@ -17,6 +21,10 @@
           </listItem>
         </randomList>
       </para>
+      <figure id="fig-0001">
+        <title>Complete bicycle</title>
+        <graphic infoEntityIdent="ICN-C0419-S1000D0360-001-01" reproductionScale="100"/>
+      </figure>
       <para>The parts that you can immediately identify on a bicycle are given in <internalRef internalRefId="tab-0001"/>.</para>
       <table id="tab-0001" frame="all" pgwide="0" rowsep="1" colsep="1">
         <title>Bicycle parts</title>

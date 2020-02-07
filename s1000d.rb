@@ -125,5 +125,15 @@ module Asciidoctor
 		end
 
 		alias convert_embedded content_only
+
+		def convert_image node
+			result = %(<figure#{common_attributes node.id}>)
+			result << %(<title>#{node.title}</title>)
+			width_attribute = (node.attr? 'width') ? %( reproductionWidth="#{node.attr 'width'}") : ''
+			height_attribute = (node.attr? 'height') ? %( reproductionHeight="#{node.attr 'height'}") : ''
+			scale_attribute = (node.attr? 'scale') ? %( reproductionScale="#{node.attr 'scale'}") : ''
+			result << %(<graphic infoEntityIdent="#{node.image_uri(node.attr 'target')}"#{width_attribute}#{height_attribute}#{scale_attribute}/>)
+			result << %(</figure>)
+		end
 	end
 end
