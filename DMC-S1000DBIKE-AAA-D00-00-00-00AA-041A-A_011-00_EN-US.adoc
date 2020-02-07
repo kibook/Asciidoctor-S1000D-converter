@@ -1,0 +1,7 @@
+== Physical description of a bicycle
+
+A bicycle is a frame and a number of movable components with mechanical parts that are completely open. There are no covers or sheet metal panels that prevent access to the mechanical parts. Thus, you can disassemble the different components of a bicycle to do:
+
+- an inspection
+- a maintenance task
+- a repair task
