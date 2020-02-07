@@ -5,3 +5,77 @@ A bicycle is a frame and a number of movable components with mechanical parts th
 - an inspection
 - a maintenance task
 - a repair task
+
+The parts that you can immediately identify on a bicycle are given in <<tab-0001>>.
+
+[#tab-0001]
+[cols="3", options="header"]
+|===
+|Item
+|Refer To
+|Definition
+
+|Frame
+|
+|A bicycle frame is made of metal tubes that are welded together.
+
+|Wheels
+|
+a|The wheels include these parts:
+
+- Hub
+- Spokes
+- Metal rim
+- Rubber tire
+
+a|- Rear wheel
+|
+|
+
+a|- Front wheel
+|
+|
+
+|Seat and seat post
+|
+|These intall into the seat tube with a mechanism you can use to change the height.
+
+|Handle bars
+|
+|A horizontal bar that attaches to the stem with grips at the ends that attach to the brake levers and the shifters.
+
+|Handle bar stem
+|
+|This attaches the handle bar to the steering tube (head set).
+
+|Cranks
+|
+|A lever that extends from the bottom of the bracket to the pedal.
+
+|Pedals
+|
+|The two platforms for the feet that attach to the crank.
+
+|Chain
+|
+|A circular set of links that connect the chain ring to the cogs on the freewheel.
+
+|Gears
+|
+a|The gears include:
+
+- Front chain ring
+- Rear freewheel
+- Front and the rear derailleur
+- Shift lever on the handle bars
+- Cables
+
+|Brakes
+|
+a|The brakes include:
+
+- Actuators on the handlebars
+- Brake cable
+- Brake callipers
+- Brake pads
+|===

@@ -17,6 +17,196 @@
           </listItem>
         </randomList>
       </para>
+      <para>The parts that you can immediately identify on a bicycle are given in <internalRef internalRefId="tab-0001"/>.</para>
+      <table id="tab-0001" frame="all" pgwide="0" rowsep="1" colsep="1">
+        <tgroup cols="3">
+          <colspec colname="col_1" colwidth="33.3333*"/>
+          <colspec colname="col_2" colwidth="33.3333*"/>
+          <colspec colname="col_3" colwidth="33.3334*"/>
+          <thead>
+            <row>
+              <entry align="left" valign="top">
+                <para>Item</para>
+              </entry>
+              <entry align="left" valign="top">
+                <para>Refer To</para>
+              </entry>
+              <entry align="left" valign="top">
+                <para>Definition</para>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry align="left" valign="top">
+                <para>Frame</para>
+              </entry>
+              <entry align="left" valign="top"/>
+              <entry align="left" valign="top">
+                <para>A bicycle frame is made of metal tubes that are welded together.</para>
+              </entry>
+            </row>
+            <row>
+              <entry align="left" valign="top">
+                <para>Wheels</para>
+              </entry>
+              <entry align="left" valign="top"/>
+              <entry align="left" valign="top">
+                <para>The wheels include these parts:</para>
+                <para>
+                  <randomList>
+                    <listItem>
+                      <para>Hub</para>
+                    </listItem>
+                    <listItem>
+                      <para>Spokes</para>
+                    </listItem>
+                    <listItem>
+                      <para>Metal rim</para>
+                    </listItem>
+                    <listItem>
+                      <para>Rubber tire</para>
+                    </listItem>
+                  </randomList>
+                </para>
+              </entry>
+            </row>
+            <row>
+              <entry align="left" valign="top">
+                <para>
+                  <randomList>
+                    <listItem>
+                      <para>Rear wheel</para>
+                    </listItem>
+                  </randomList>
+                </para>
+              </entry>
+              <entry align="left" valign="top"/>
+              <entry align="left" valign="top"/>
+            </row>
+            <row>
+              <entry align="left" valign="top">
+                <para>
+                  <randomList>
+                    <listItem>
+                      <para>Front wheel</para>
+                    </listItem>
+                  </randomList>
+                </para>
+              </entry>
+              <entry align="left" valign="top"/>
+              <entry align="left" valign="top"/>
+            </row>
+            <row>
+              <entry align="left" valign="top">
+                <para>Seat and seat post</para>
+              </entry>
+              <entry align="left" valign="top"/>
+              <entry align="left" valign="top">
+                <para>These intall into the seat tube with a mechanism you can use to change the height.</para>
+              </entry>
+            </row>
+            <row>
+              <entry align="left" valign="top">
+                <para>Handle bars</para>
+              </entry>
+              <entry align="left" valign="top"/>
+              <entry align="left" valign="top">
+                <para>A horizontal bar that attaches to the stem with grips at the ends that attach to the brake levers and the shifters.</para>
+              </entry>
+            </row>
+            <row>
+              <entry align="left" valign="top">
+                <para>Handle bar stem</para>
+              </entry>
+              <entry align="left" valign="top"/>
+              <entry align="left" valign="top">
+                <para>This attaches the handle bar to the steering tube (head set).</para>
+              </entry>
+            </row>
+            <row>
+              <entry align="left" valign="top">
+                <para>Cranks</para>
+              </entry>
+              <entry align="left" valign="top"/>
+              <entry align="left" valign="top">
+                <para>A lever that extends from the bottom of the bracket to the pedal.</para>
+              </entry>
+            </row>
+            <row>
+              <entry align="left" valign="top">
+                <para>Pedals</para>
+              </entry>
+              <entry align="left" valign="top"/>
+              <entry align="left" valign="top">
+                <para>The two platforms for the feet that attach to the crank.</para>
+              </entry>
+            </row>
+            <row>
+              <entry align="left" valign="top">
+                <para>Chain</para>
+              </entry>
+              <entry align="left" valign="top"/>
+              <entry align="left" valign="top">
+                <para>A circular set of links that connect the chain ring to the cogs on the freewheel.</para>
+              </entry>
+            </row>
+            <row>
+              <entry align="left" valign="top">
+                <para>Gears</para>
+              </entry>
+              <entry align="left" valign="top"/>
+              <entry align="left" valign="top">
+                <para>The gears include:</para>
+                <para>
+                  <randomList>
+                    <listItem>
+                      <para>Front chain ring</para>
+                    </listItem>
+                    <listItem>
+                      <para>Rear freewheel</para>
+                    </listItem>
+                    <listItem>
+                      <para>Front and the rear derailleur</para>
+                    </listItem>
+                    <listItem>
+                      <para>Shift lever on the handle bars</para>
+                    </listItem>
+                    <listItem>
+                      <para>Cables</para>
+                    </listItem>
+                  </randomList>
+                </para>
+              </entry>
+            </row>
+            <row>
+              <entry align="left" valign="top">
+                <para>Brakes</para>
+              </entry>
+              <entry align="left" valign="top"/>
+              <entry align="left" valign="top">
+                <para>The brakes include:</para>
+                <para>
+                  <randomList>
+                    <listItem>
+                      <para>Actuators on the handlebars</para>
+                    </listItem>
+                    <listItem>
+                      <para>Brake cable</para>
+                    </listItem>
+                    <listItem>
+                      <para>Brake callipers</para>
+                    </listItem>
+                    <listItem>
+                      <para>Brake pads</para>
+                    </listItem>
+                  </randomList>
+                </para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
     </levelledPara>
   </description>
 </content>
