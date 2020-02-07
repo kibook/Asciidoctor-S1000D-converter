@@ -19,6 +19,7 @@
       </para>
       <para>The parts that you can immediately identify on a bicycle are given in <internalRef internalRefId="tab-0001"/>.</para>
       <table id="tab-0001" frame="all" pgwide="0" rowsep="1" colsep="1">
+        <title>Bicycle parts</title>
         <tgroup cols="3">
           <colspec colname="col_1" colwidth="33.3333*"/>
           <colspec colname="col_2" colwidth="33.3333*"/>
