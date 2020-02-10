@@ -7,7 +7,7 @@
   <description>
     <levelledPara id="_physical_description_of_a_bicycle">
       <title>Physical description of a bicycle</title>
-      <para>A bicycle (refer to <internalRef internalRefId="fig-0001"/>) is a frame and a number of movable components with mechanical parts that are completely open. There are no covers or sheet metal panels that prevent access to the mechanical parts. Thus, you can disassemble the different components of a bicycle to do:</para>
+      <para>A <emphasis emphasisType="em01">bicycle</emphasis> (refer to <internalRef internalRefId="fig-0001"/>) is a <changeInline changeMark="1">frame</changeInline> and a number of movable components with mechanical parts that are completely open. There are no covers or sheet metal panels that prevent access to the mechanical parts. Thus, you can disassemble the different components of a bicycle to do:</para>
       <para>
         <randomList>
           <listItem>

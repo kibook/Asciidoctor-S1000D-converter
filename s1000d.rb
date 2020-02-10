@@ -2,6 +2,15 @@ module Asciidoctor
 	class Converter::S1000D < Converter::Base
 		register_for 's1000d'
 
+		(QUOTE_TAGS = {
+			monospaced: ['<verbatimText>', '</verbatimText>'],
+			emphasis: ['<emphasis emphasisType="em02">', '</emphasis>'],
+			strong: ['<emphasis emphasisType="em01">', '</emphasis>'],
+			mark: ['<changeInline changeMark="1">', '</changeInline>'],
+			superscript: ['<superScript>', '</superScript>'],
+			subscript: ['<subScript>', '</subScript>']
+		}).default = ['', '']
+
 		def initialize *args
 			super
 			filetype 'xml'
@@ -134,6 +143,15 @@ module Asciidoctor
 			scale_attribute = (node.attr? 'scale') ? %( reproductionScale="#{node.attr 'scale'}") : ''
 			result << %(<graphic infoEntityIdent="#{node.image_uri(node.attr 'target')}"#{width_attribute}#{height_attribute}#{scale_attribute}/>)
 			result << %(</figure>)
+		end
+
+		def convert_inline_quoted node
+			if node.type == :asciimath
+				asciimath_available? ? %(#{(::AsciiMath.parse node.text).to_mathl 'mml:', 'xmlns:mml' => 'http://www.w3.org/1998/Math/MathML'}) : %(#{node.text})
+			else
+				open, close = QUOTE_TAGS[node.type]
+				%(#{open}#{node.text}#{close})
+			end
 		end
 	end
 end
